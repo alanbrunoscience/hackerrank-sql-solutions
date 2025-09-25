@@ -1,0 +1,6 @@
+SELECT
+  AVG(POPULATION) AS Average_Population
+FROM
+  CITY
+WHERE
+  DISTRICT LIKE 'California';

@@ -1,0 +1,6 @@
+SELECT
+  SUM(POPULATION) As Total_Population
+FROM
+  CITY
+WHERE
+  DISTRICT LIKE 'California';
