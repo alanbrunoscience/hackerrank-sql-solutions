@@ -37,4 +37,10 @@ Explicação:
 → AVG(CITY.Population) → calcula a média da população das cidades dentro de cada continente;
 → FLOOR(...) → arredonda para baixo conforme o enunciado.
 
+
+💡 Resumo para leigos:
+
+- 'GROUP BY' = “agrupa as linhas em categorias para fazer cálculos dentro de cada categoria.”
+- Sem ele, o SQL só sabe calcular uma média geral e não consegue mostrar a categoria ao lado.
+
 */
