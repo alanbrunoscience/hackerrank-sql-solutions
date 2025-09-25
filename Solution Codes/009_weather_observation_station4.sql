@@ -1,0 +1,4 @@
+SELECT
+    COUNT(CITY) - COUNT(DISTINCT CITY) as Difference
+FROM
+    STATION;
